@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syntax_Activity"
+    android:background="@drawable/a3">
+    <TextView
+        android:id="@+id/syntax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/contoh_syntax_activity"
+        android:textColor="#070A0A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/syntax_intent"
+        android:layout_width="396dp"
+        android:layout_height="444dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/activity_android_allowembedded_true_false_android_allowtaskreparenting_true_false_android_alwaysretaintaskstate_true_false_android_autoremovefromrecents_true_false_android_banner_drawable_resource_android_cleartaskonlaunch_true_false_android_colormode_hdr_widecolorgamut_android_configchanges_mcc_mnc_locale_touchscreen_keyboard_keyboardhidden_navigation_screenlayout_fontscale_uimode_orientation_density_screensize_smallestscreensize_android_directbootaware_true_false_android_documentlaunchmode_intoexisting_always_none_never_android_enabled_true_false_android_excludefromrecents_true_false_android_exported_true_false_android_finishontasklaunch_true_false_android_hardwareaccelerated_true_false_android_icon_drawable_resource_android_immersive_true_false_android_label_string_resource_android_launchmode_standard_singletop_singletask_singleinstance_android_locktaskmode_normal_never_if_whitelisted_always_android_maxrecents_integer_android_maxaspectratio_float_android_multiprocess_true_false_android_name_string_android_nohistory_true_false_android_parentactivityname_string_android_persistablemode_persistrootonly_persistacrossreboots_persistnever_android_permission_string_android_process_string_android_relinquishtaskidentity_true_false_android_resizeableactivity_true_false_android_screenorientation_unspecified_behind_landscape_portrait_reverselandscape_reverseportrait_sensorlandscape_sensorportrait_userlandscape_userportrait_sensor_fullsensor_nosensor_user_fulluser_locked_android_showforallusers_true_false_android_statenotneeded_true_false_android_supportspictureinpicture_true_false_android_taskaffinity_string_android_theme_resource_or_theme_android_uioptions_none_splitactionbarwhennarrow_android_windowsoftinputmode_stateunspecified_stateunchanged_statehidden_statealwayshidden_statevisible_statealwaysvisible_adjustunspecified_adjustresize_adjustpan_activity"
+        android:textColor="#FC0A0909"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/syntax"
+        app:layout_constraintVertical_bias="0.0" />
+    <Button
+        android:id="@+id/kembali2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/kembali"
+        android:textSize="18sp"
+        android:background="#9999ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/syntax_intent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
